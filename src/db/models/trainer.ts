@@ -34,6 +34,6 @@ const trainerSchema = new Schema<ITrainer>({
   },
 });
 
-const trainerModel = mongoose.model<ITrainer>("Trainer", trainerSchema);
+const TrainerModel = mongoose.model<ITrainer>("Trainer", trainerSchema);
 
-export default trainerModel;
+export default TrainerModel;
