@@ -54,7 +54,7 @@ export const updateTrainer = async (
 export const deleteTrainer = async (id: string): Promise<boolean> => {
   try {
     const deleteTrainer = await TrainerModel.findByIdAndDelete(id);
-    if (deleteTrainer) throw new Error("Failed to delete trainer");
+    if (!deleteTrainer) throw new Error("Failed to delete trainer");
     return true;
   } catch (error) {
     throw new Error("Error deleting trainer ");

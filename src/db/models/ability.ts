@@ -23,6 +23,6 @@ const AbilitySchema = new Schema<IAbility>({
   },
 });
 
-const abilityModel = mongoose.model<IAbility>("Abilities", AbilitySchema);
+const AbilityModel = mongoose.model<IAbility>("Abilities", AbilitySchema);
 
-export default abilityModel;
+export default AbilityModel;

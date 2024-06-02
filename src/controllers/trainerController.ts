@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from "express";
-import { Delete, Get, Put, Post, Route, Tags, Patch } from "tsoa";
+import { Delete, Get, Put,  Route, Tags, Patch } from "tsoa";
 import {
   createTrainer,
   deleteTrainer,
