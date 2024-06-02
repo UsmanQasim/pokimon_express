@@ -32,4 +32,4 @@ To get started with this project, follow these steps:
 
 ## Project Builder
 
-- Usman Qasim (@johndoe)
+- Usman Qasim (1998usman@gmail.com)
