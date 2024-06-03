@@ -23,6 +23,6 @@ const TypeSchema = new Schema<ITypes>({
   },
 });
 
-const typeModel = mongoose.model<ITypes>("Types", TypeSchema);
+const TypeModel = mongoose.model<ITypes>("Types", TypeSchema);
 
-export default typeModel;
+export default TypeModel;
